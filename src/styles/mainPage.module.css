@@ -1,0 +1,32 @@
+.createButton {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.createButton:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 48px 5px rgba(34, 60, 80, 0.2);
+}
+
+.title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.title::first-letter {
+    color: red;
+    text-transform: uppercase;
+}
+

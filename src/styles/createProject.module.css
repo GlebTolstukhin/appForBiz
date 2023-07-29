@@ -1,0 +1,43 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.smallArea {
+    width: 300px;
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+.bigArea {
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 15px;
+
+}
+.flexDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.createButton {
+    width: 150px;
+    height: 40px;
+    border: 3px solid green;
+    background-color: greenyellow;
+    margin-right: 15px;
+}
+.backButton {
+    width: 150px;
+    height: 40px;
+    border: 3px solid red;
+    background-color: rgb(239, 114, 114);
+}

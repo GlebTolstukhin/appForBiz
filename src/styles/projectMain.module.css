@@ -1,0 +1,183 @@
+.project {
+    position: relative;
+    width: 800px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 48px 5px rgba(34, 60, 80, 0.11);
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: Roboto;
+    width: 500px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.title::first-letter {
+    color: rgb(0, 96, 13);
+    text-transform: uppercase;
+}
+.aboutDescription {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 0 auto;
+}
+.description {
+    width: 700px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 auto;
+
+}
+
+.description::first-letter {
+    color: rgb(0, 96, 13);
+    text-transform: uppercase;
+}
+.projectNumbers {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+.sectionName {
+    font-family: Roboto;
+    width: 500px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 10px auto;
+    
+}
+
+.instructionButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.instructionButton:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 48px 5px rgba(34, 60, 80, 0.2);
+}
+
+.renameButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.renameButton:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 48px 5px rgba(34, 60, 80, 0.2);
+}
+
+.red {
+    color: red;
+    margin-left: 5px;
+}
+.green {
+    color: green;
+}
+.calcButton {
+    display: block;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid gray;
+    margin: 15px auto;
+}
+
+.calcButton:hover {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 48px 5px rgba(34, 60, 80, 0.2);
+}
+.buttonFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.removeButton {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid gray;
+    margin: 15px auto;
+    background-color: rgb(207, 74, 74);
+
+}
+
+.removeButton:hover {
+    border: 2px solid black;
+    background-color: rgb(180, 50, 50);
+    box-shadow: 0px 0px 48px 5px rgba(34, 60, 80, 0.2);
+}
+.backButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 250px;
+    height: 22px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid gray;
+    margin: 15px auto;
+    text-decoration: none;
+}
+
+.backButton:hover {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 48px 5px rgba(34, 60, 80, 0.2);
+}
+.flex {
+    display: flex;
+}
+.littleInfo {
+    font-size: 15px;
+    color: gray;
+}

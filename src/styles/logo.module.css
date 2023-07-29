@@ -1,0 +1,11 @@
+.logo {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-weight: 700;
+    background-color: yellow;
+    margin-left: -5px;
+    margin-right: -5px;
+}
