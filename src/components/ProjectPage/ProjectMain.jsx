@@ -93,7 +93,7 @@ const ProjectMain = ({project}) => {
                 
             </div>
 
-            <span className={s.littleInfo}>Не вводится польователем, а рассчитавается приложением исходя из введенных данных.</span> 
+            <span className={s.littleInfo}>Не вводится польователем, а рассчитывается приложением исходя из введенных данных.</span> 
             <div className={s.projectNumbers}>
             Ежемесячная прибыль: 
                 {/* {project.incomes.monthIncome === undefined || project.incomes.monthIncome === ""  ?
